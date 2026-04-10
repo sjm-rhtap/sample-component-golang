@@ -58,11 +58,11 @@ spec:
       description: Execute the build with network isolation
       name: hermetic
       type: string
-    - default: ""
+    - default: "false"
       description: Build dependencies to be prefetched
       name: prefetch-input
       type: string
-    - default: ""
+    - default: "3w"
       description: Image tag expiration time, time values could be something like
         1h, 2d, 3w for hours, days, and weeks, respectively.
       name: image-expires-after
