@@ -14,7 +14,6 @@ spec:
     data:
     - oci::quay.io/konflux-ci/tekton-catalog/data-acceptable-bundles:latest
     - github.com/redhat-appstudio/tsf-conforma-data//data?ref=33b9228b4f2846d827128e776b4a956788d7df8a
-    - k8s://default-managed-tenant/ec-cve-exceptions
     config:
       exclude:
       - hermetic_task
